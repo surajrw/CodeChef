@@ -1,0 +1,5 @@
+a=int(input())
+b=int(input())
+c=(a*4)
+
+print(c+b)
