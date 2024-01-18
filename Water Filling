@@ -1,0 +1,32 @@
+b1=int(input())
+b2=int(input())
+b3=int(input())
+if(b1==1 and b2==1 and b3==1):
+    print("not now")
+    
+elif(b1==0 and b2==0 and b3==0):
+    print("water filling time")
+    
+elif(b1==1 and b2==1 and b3==0):
+    print("not now")
+    
+elif(b1==0 and b2==1 and b3==1):    
+    print("not now")
+    
+    
+elif(b1==1 and b2==0 and b3==1):    
+    print("not now")
+    
+elif(b1==1 and b2==0 and b3==0):    
+    print("water filling time")
+    
+    
+elif(b1==0 and b2==1 and b3==0):  
+    print("water filling time")
+
+
+elif(b1==0 and b2==0 and b3==1):    
+    print("water filling time")
+    
+else:
+    print("error")
