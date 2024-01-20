@@ -1,0 +1,8 @@
+coins=int(input())
+total=(50*coins)
+sc=((total*20)/100)
+s=((total*20)/100)
+r=((total*30)/100)
+
+profit=(total-(sc+s+r))
+print(profit)
