@@ -1,0 +1,12 @@
+a=int(input("mango"))
+b=int(input("total mango weight"))
+c=int(input("truck weight"))
+d=int(input("bridge weight"))
+
+e=((a*b)+c)
+
+if(e<=d):
+    print("safe")
+
+else:
+    print("not safe")
