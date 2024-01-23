@@ -1,0 +1,12 @@
+aero=10
+passen=int(input("passenger"))
+people=int(input("people"))
+money=int(input("money"))
+
+seats=(aero*passen)
+print(seats)
+
+if(people>seats):
+    print(seats*money)
+else:
+    print(people*money)
