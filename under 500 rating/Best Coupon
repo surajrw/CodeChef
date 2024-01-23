@@ -1,0 +1,11 @@
+money=int(input())
+print("Press 1 for tenpercent \nPress 2 for flathundred")
+option = int(input("Enter your option: "))
+if option == 1:
+    print(((money*10)/100))
+
+elif option==2:
+    print("100")
+    
+else:
+    print("nothing")
