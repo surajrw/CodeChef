@@ -1,0 +1,4 @@
+a=int(input("bike tyre:"))
+b=int(input("car tyre:"))
+total=((a*2)+(b*4))
+print(total)
