@@ -1,0 +1,13 @@
+a=int(input("first tv price:"))
+b=int(input("second tv price:"))
+c=int(input("discount on 1st tv:"))
+d=int(input("discount on 2nd tv:"))
+e=(a-c)
+f=(b-d)
+
+if(e>f):
+    print("first")
+elif(f>e):
+    print("second")
+elif(e==f):
+    print("any")
