@@ -1,0 +1,10 @@
+a=int(input("assignment"))
+b=int(input("time"))
+tt=(a*b)
+c=int(input("days"))
+d=((c*24)*60)
+
+if(tt<=d):
+    print("yes")
+else:
+    print("no")
