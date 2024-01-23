@@ -1,0 +1,9 @@
+a=int(input("total money:"))
+b=30
+c=int(input("daily expenditure:"))
+d=(b*c)
+
+if(d<=a):
+    print("yes")
+else:
+    print("no")
