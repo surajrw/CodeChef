@@ -1,0 +1,15 @@
+a=int(input("initial"))
+b=int(input("capacity"))
+c=int(input("adding water"))
+d=int(input("hours"))
+
+if((a+(c*d))==b):
+    print("filled")
+    
+elif((a+(c*d))>b):
+    print("overflow")
+    
+elif((a+(c*d))<b):
+    print("unfilled")
+    
+
