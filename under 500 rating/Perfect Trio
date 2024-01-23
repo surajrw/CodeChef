@@ -1,0 +1,8 @@
+a=int(input("enter first age:"))
+b=int(input("enter second age:"))
+c=int(input("enter third age:"))
+
+if((a+b)==c or (a+c)==b or (c+b)==a):
+    print("yes")
+else:
+    print("no")
