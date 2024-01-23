@@ -1,0 +1,6 @@
+a=int(input("bank amount"))
+b=int(input("at the end of month"))
+c=int(input("pays"))
+d=int(input("months"))
+
+print(a+(b-c)*d)
