@@ -1,0 +1,13 @@
+a=int(input("week1:"))
+b=int(input("week 2:"))
+c=int(input("week 3:"))
+d=int(input("week 4:"))
+
+if(a<=10):
+    print(1)
+elif(b<=10):
+    print(2)
+elif(c<=10):
+    print(3)
+elif(d<=10):
+    print(4)
