@@ -1,0 +1,9 @@
+a=int(input("total student"))
+b=int(input("enrolled till now"))
+c=int(input("friends"))
+d=(b+c)
+if(d<a):
+    print("yes")
+    
+else:
+    print("no")
