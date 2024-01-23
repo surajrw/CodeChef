@@ -1,0 +1,6 @@
+a=int(input("battery"))
+if(a<=15):
+    print("yes")
+    
+else:
+    print("no")
