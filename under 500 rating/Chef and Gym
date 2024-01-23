@@ -1,0 +1,15 @@
+fee=int(input())
+tri=int(input())
+bud=int(input())
+
+if((fee+tri)<=bud):
+    print("2")
+    
+elif(fee<tri or fee<bud):
+    print("1")
+    
+elif((fee+tri)>bud):
+    print("0")
+
+else:
+    print("none")
