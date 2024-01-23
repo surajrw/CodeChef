@@ -1,0 +1,9 @@
+a=int(input("repair cost:"))
+b=int(input("new phone cost:"))
+
+if(a>b):
+    print("new phone")
+elif(a<b):
+    print("repair")
+elif(a==b):
+    print("any")
