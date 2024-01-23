@@ -1,0 +1,8 @@
+a=int(input("IQ"))
+b=(a + 7)
+c=170
+
+if(b>c):
+    print("yes")
+else:
+    print("no")
