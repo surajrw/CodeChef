@@ -1,0 +1,7 @@
+a=int(input("enter rating:"))
+if(1<=a<100):
+    print("easy")
+elif(100<=a<200):
+    print("medium")
+elif(200<=a<=300):
+    print("hard")
