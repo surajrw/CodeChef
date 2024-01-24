@@ -1,9 +1,0 @@
-a=int(input())
-b=int(input())
-c=int(input())
-d=(a*b)
-
-if(((c/d)*100)>50):
-    print("yes")
-else:
-    print("no")
