@@ -1,4 +1,0 @@
-kg=int(input())
-pages=(kg*1000)
-nb=(pages/100)
-print(nb)
