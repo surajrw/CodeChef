@@ -1,0 +1,10 @@
+a=int(input("come for dose:"))
+b=int(input("starting day of second dose:"))
+c=int(input("last day of second dose:"))
+
+if(b<=a<=c):
+    print("take now")
+elif(b<a>c):
+    print("too late")
+elif(b>a<c):
+    print("too early")
