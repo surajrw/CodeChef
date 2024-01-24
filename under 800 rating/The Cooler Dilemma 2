@@ -1,0 +1,4 @@
+a=int(input("cost of renting:"))
+b=int(input("total coins:"))
+c=(b%a)
+print(c)
