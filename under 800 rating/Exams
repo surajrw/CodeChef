@@ -1,0 +1,10 @@
+t=int(input())
+i=0
+while i<t:
+    a,b,c=[int(x) for x in input().split()]
+    d=(a*b)
+    if(((c/d)*100)>50):
+        print("yes")
+    else:
+        print("no")
+    i+=1 
