@@ -1,0 +1,10 @@
+t=int(input())
+i=0
+while i<t:
+    x,y,z=[int(x) for x in input().split()]
+    a=((x+y)/2)
+    if(a>z):
+        print("yes")
+    else:
+        print("no")
+    i+=1    
