@@ -1,3 +1,5 @@
+\\ use floor division for returning quotient and our answer is quotient
+
 t=int(input())
 i=0
 while i<t:
