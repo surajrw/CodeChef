@@ -1,0 +1,9 @@
+t=int(input())
+i=0
+while i<t:
+    a=int(input())
+    if((a+3)<=10):
+        print("yes")
+    else:
+        print("no")
+    i+=1 
