@@ -1,5 +1,0 @@
-a=int(input("assets:"))
-b=int(input("wants worth:"))
-c=int(input("increment per year:"))
-d=((b-a)/c)
-print(d)
