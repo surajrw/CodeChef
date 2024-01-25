@@ -1,0 +1,6 @@
+t=int(input())
+i=0
+while i<t:
+    x,y=[int(x) for x in input().split()]
+    print((x*4)+y)
+    i+=1
