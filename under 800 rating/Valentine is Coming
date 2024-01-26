@@ -1,0 +1,7 @@
+t=int(input())
+i=0
+while i<t:
+    x, y = [int(x) for x in input().split()]
+    c=(x//y)
+    print(c)
+    i+=1
