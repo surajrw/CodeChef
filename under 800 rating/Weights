@@ -1,0 +1,9 @@
+t=int(input())
+i=0
+while i<t:
+    x, y, z, a = [int(x) for x in input().split()]
+    if(((y+z)==x) or ((a+z)==x) or ((y+a)==x) or (y==x) or (z==x) or (a==x) or (y+z+a)==x):
+        print("yes")
+    else:
+        print("no")
+    i+=1  
