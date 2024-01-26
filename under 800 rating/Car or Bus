@@ -1,0 +1,10 @@
+i=0
+while i<t:
+    x,y=[int(x) for x in input().split()]
+    if(x<y):
+        print("bike")
+    elif(x>y):
+        print("car")
+    elif(x==y):
+        print("same")
+    i+=1  
