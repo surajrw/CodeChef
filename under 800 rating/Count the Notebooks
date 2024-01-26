@@ -1,0 +1,9 @@
+t=int(input())
+i=0
+while i<t:
+    pulp=int(input())
+    totalpulp=(pulp*1000)
+    NBpages=100
+    NB=(((totalpulp)/NBpages))
+    print(int(NB))
+    i+=1
