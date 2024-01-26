@@ -1,0 +1,12 @@
+t=int(input())
+i=0
+while i<t:
+    a=int(input())
+    coins=50
+    tc=50*a
+    sc=10*a
+    salt=10*a
+    rent=((30/100)*tc)
+    b=(tc-(sc+salt+rent))
+    print(int(b))
+    i+=1
