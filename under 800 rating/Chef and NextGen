@@ -1,0 +1,11 @@
+t=int(input())
+i=0
+while i<t:
+    x, y, z, a = [int(x) for x in input().split()]
+    b=(x*y)
+    c=(z*a)
+    if(c>=b):
+        print("yes")
+    else:
+        print("no")
+    i+=1    
